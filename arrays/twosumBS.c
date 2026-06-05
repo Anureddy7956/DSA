@@ -5,7 +5,7 @@ void twoSum(int arr[], int n, int target) {
     int hash[max]={0};
     for(int i=0 ; i<n ; i++){
         int complement = target - arr[i];
-        if(complement >=0 && hash[complement]==0){
+        if(complement >=0 && hash[complement]==1){
             printf("Pair found : %d and %d\n",arr[i],complement);
             return;
         }
