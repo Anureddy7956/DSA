@@ -10,7 +10,7 @@ void twoSum(int arr[], int n, int target) {
             return;
         }
         if(arr[i]>=0 && arr[i]<max){
-            hash[arr[i]]==1;
+            hash[arr[i]]=1;
         }
     }
     printf("no pair is found");
