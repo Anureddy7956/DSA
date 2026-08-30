@@ -7,3 +7,5 @@ There are multiple ways to measure time complexity of an algorithm:
     1.Best case
     2.Average case
     3.Worst case
+
+ We use a special notation called `“Big O notation”` to talk about worst-case time complexity.
